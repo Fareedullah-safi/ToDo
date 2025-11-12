@@ -106,7 +106,7 @@ export default function Page() {
 
   return (
     <main
-      className={`min-h-screen flex items-center justify-center px-4 py-10 transition-colors duration-500
+      className={`min-h-screen overflow-y-hidden flex items-center justify-center px-4 py-10 transition-colors duration-500
         ${
           darkMode
             ? "bg-linear-to-br from-gray-900 via-purple-900 to-gray-800"
