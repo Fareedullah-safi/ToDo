@@ -16,6 +16,8 @@
 }
 
 /* Global body styles */
-body {
+body,
+html {
   @apply font-sans;
+  overflow: hidden;
 }
