@@ -136,7 +136,7 @@ export default function Page() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="text-white text-sm sm:text-base font-semibold bg-white/20 hover:bg-white/30 rounded-xl px-3 py-1 transition-all"
+                  className="text-white cursor-pointer text-sm sm:text-base font-semibold bg-white/20 hover:bg-white/30 rounded-xl px-3 py-1 transition-all"
                 >
                   Sign In
                 </motion.button>
