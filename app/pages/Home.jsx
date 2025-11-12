@@ -56,7 +56,7 @@ export default function Page() {
 
   // Add Todo
   const handleAdd = async () => {
-    if (!email) return;
+    if (!email) return toast.error("SignIn First");
     if (newTodo.trim() === "") return;
 
     setTodos([todo, ...todos]);
